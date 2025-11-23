@@ -174,7 +174,7 @@ def main():
         
     # --- DATA LOADING ---
     if uploaded_file is not None:
-        df = pd.read_csv(uploaded_file)
+        df = pd.read_csv(Sankalp.xlsx)
     else:
         df = load_default_data()
         st.warning("Using a small default dataset. Upload your WTP data (CSV) in the sidebar for real-world results.")
